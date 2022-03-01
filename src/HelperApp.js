@@ -16,7 +16,7 @@ import Footer from './components/Footer';
 import NavOptions from './components/Navoptions'; 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
-const HelperApp = ({name,price,image,index}) => {
+const HelperApp = () => {
     return (
         <>
         <Router>
